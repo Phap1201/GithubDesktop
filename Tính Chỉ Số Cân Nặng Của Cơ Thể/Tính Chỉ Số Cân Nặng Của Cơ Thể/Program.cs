@@ -22,20 +22,20 @@ namespace Tính_Chỉ_Số_Cân_Nặng_Của_Cơ_Thể
 
             if (bmi < 18.5)
             {
-                Console.WriteLine("A Partition Is: Underweight");
+                Console.WriteLine("Classified ass: Underweight");
             }
             else if (bmi < 25.0)
             {
-                Console.WriteLine("A Partition Is:Normal");
+                Console.WriteLine("Classified as:Normal");
 
             }
             else if (bmi < 30.0)
             {
-                Console.WriteLine("A Partition Is:Overweight");
+                Console.WriteLine("Classified as:Overweight");
             }
             else
             {
-                Console.WriteLine("A Partition Is:Obese");
+                Console.WriteLine("Classified as:Obese");
             }
             Console.ReadLine();
         }
